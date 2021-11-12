@@ -1,0 +1,104 @@
+body {
+  background-color: #344955;
+  color: whitesmoke;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.dataContainer textarea {
+  margin: 16px 5px 0px 5px;
+  padding: 8px;
+  border-radius: 5px;
+  resize: none;
+  border: 2px solid #f9aa33;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: red;
+  /* display: block; */
+}
+
+.header li {
+  display: inline-block;
+  padding: 4px 20px;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.waveButton {
+  background-color: #f9aa33;
+  cursor: pointer;
+  margin: 16px 5px 0px 5px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #344955;
+  
+}
+
+.waveButton:disabled {
+  background-color: #344955;
+  border: 2px solid #f9aa33;
+  color: grey;
+}
+
+.spinner {
+  margin: 20px auto;
+}
+
+.spinner #spinnerSpan {
+  
+}
+
+#allMessagesContainer {
+  background-color: #232f34;
+  overflow-y: scroll;
+  max-height: 400px;
+  box-shadow: 
+  /* The top layer shadow */
+        0 1px 1px #232f34,
+            /* The second layer */
+        0 10px 0 -5px #4a6572,
+            /* The second layer shadow */
+        0 10px 1px -4px #232f34,
+            /* The third layer */
+        0 20px 0 -10px #4a6572,
+            /* The third layer shadow */
+        0 20px 1px -9px #232f34;
+}
+
+.allMessages {
+   
+  color: whitesmoke;
+  margin: 16px auto;
+  padding: 12px;
+  width: 90%;
+  font-weight: bold;
+}
+
+.allMessages div{
+  padding-bottom: 10px;
+}
